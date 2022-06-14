@@ -110,7 +110,11 @@ const Login = () => {
                                 Forgot your password?
                             </a>
                         </Link>
-
+                        <Link href="/register">
+                                <a className="ml-4 text-sm text-gray-700 underline">
+                                    Register
+                                </a>
+                            </Link>
                         <Button className="ml-3">Login</Button>
                     </div>
                 </form>
